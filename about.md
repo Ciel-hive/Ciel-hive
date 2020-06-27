@@ -4,11 +4,8 @@ title: 关于
 reward: false
 ---
 
-### Minimalism
+<center><img src="https://varenyzc.github.io/assets/img/avatar.webp" width="200" height="200"/></center>
+
+<center><p style="font-size='16px' font-style='bold'">Java开发工程师</p></center>
 
 ---
-
-[Minimalism] 是一款基于 [Jekyll] 为极简主义者打造的极简主题。
-
-[Minimalism]: https://github.com/showzeng/Minimalism
-[Jekyll]: https://jekyllrb.com/
