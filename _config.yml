@@ -36,3 +36,7 @@ exclude:
   - Gemfile.lock
  
 theme: jekyll-theme-minimalism
+
+site:
+    posts:
+        size: 100
