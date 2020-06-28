@@ -1,6 +1,6 @@
 ---
-title: "Python运算符"
-date: 2020-06-27 17:32:23 +0800
+title: "RabbitMQ基础"
+date: 2020-06-28 19:06:55 +0800
 category: Python
 tags: [Basics]
 excerpt: 本文主要介绍Python的运算符

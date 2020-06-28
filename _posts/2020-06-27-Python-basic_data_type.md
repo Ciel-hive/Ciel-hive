@@ -3,7 +3,7 @@ title: "Python数据类型"
 date: 2020-06-27 17:34:23 +0800
 category: Python
 tags: [Basics]
-excerpt: 本文主要介绍Python的数据类型
+excerpt: 本文主要介绍Python的数据类型(Number、String、List、Tuple、Dictionary、Set)以及类型之间的转换
 ---
 
 # 标准数据类型([类型转换](#TypeChange))
@@ -93,12 +93,14 @@ excerpt: 本文主要介绍Python的数据类型
  > - 字典由索引(key)和它对应的值value组成,通过键来取值
  > - 字典使用`{}`标识
 
-    a = dict()
-    b = {}
-    a['name'] = 'jick'
-    b['name'] = 'gool'
-    print(a['name'])
-    print(b['name'])
+```
+a = dict()
+b = {}
+a['name'] = 'jick'
+b['name'] = 'gool'
+print(a['name'])
+print(b['name'])
+```
 
 <h3 id="Set">6. Set(集合)<sup><a href="#Top">Top</a></sup></h3>
  > - 可以使用`{ }`或者`set()`函数创建集合
@@ -106,23 +108,23 @@ excerpt: 本文主要介绍Python的数据类型
 
 <h3 id="TypeChange">7. Python数据类型转换<sup><a href="#Top">Top</a></sup></h3>
 
-    函数 | 描述
-    :---|:---
-    int(x[,base]) | 将x转换为一个整数
-    long(x[,base]) | 将x转换为一个长整数
-    float(x) | 将x转换到一个浮点数
-    complex(real[,imag]) | 创建一个复数
-    str(x) | 将对象 x 转换为字符串
-    repr(x) | 将对象 x 转换为表达式字符串
-    eval(str) | 用来计算在字符串中的有效Python表达式,并返回一个对象
-    tuple(s) | 将序列 s 转换为一个元组
-    list(s) | 将序列 s 转换为一个列表
-    set(s) | 转换为可变集合
-    dict(d) | 创建一个字典。d 必须是一个序列 (key,value)元组。
-    frozenset(s) | 转换为不可变集合
-    chr(x) | 将一个整数转换为字符
-    unichr(x) | 将一个整数转换为Unicode字符
-    ord(x) | 将一个字符转换为它的整数值
-    hex(x) | 将一个整数转换为一个十六进制字符串
-    oct(x) | 将一个整数转换为一个八进制字符串
+函数 | 描述
+:---|:---
+int(x[,base]) | 将x转换为一个整数
+long(x[,base]) | 将x转换为一个长整数
+float(x) | 将x转换到一个浮点数
+complex(real[,imag]) | 创建一个复数
+str(x) | 将对象 x 转换为字符串
+repr(x) | 将对象 x 转换为表达式字符串
+eval(str) | 用来计算在字符串中的有效Python表达式,并返回一个对象
+tuple(s) | 将序列 s 转换为一个元组
+list(s) | 将序列 s 转换为一个列表
+set(s) | 转换为可变集合
+dict(d) | 创建一个字典。d 必须是一个序列 (key,value)元组。
+frozenset(s) | 转换为不可变集合
+chr(x) | 将一个整数转换为字符
+unichr(x) | 将一个整数转换为Unicode字符
+ord(x) | 将一个字符转换为它的整数值
+hex(x) | 将一个整数转换为一个十六进制字符串
+oct(x) | 将一个整数转换为一个八进制字符串
 

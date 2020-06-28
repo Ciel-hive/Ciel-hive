@@ -18,9 +18,9 @@ title: ciel-hive
 name: ciel-hive
 description: Stay Hungry, Stay Foolish
 
-github: https://github.com/Ciel-hive
-email: 1352447939@qq.com
-rss: true
+github: https://ciel-hive.github.io
+email: mailto:1352447939@qq.com
+rss: false
 
 plugins:
   - rouge
