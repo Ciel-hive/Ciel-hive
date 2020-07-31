@@ -1,6 +1,6 @@
 ---
 title: "Python基础语法"
-date: 2020-06-27 17:32:23 +0800
+date: 2020-06-27
 category: Python
 tags: [Basics]
 excerpt: 本文主要介绍Python的基础语法

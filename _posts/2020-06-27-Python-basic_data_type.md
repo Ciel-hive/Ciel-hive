@@ -1,6 +1,6 @@
 ---
 title: "Python数据类型"
-date: 2020-06-27 17:34:23 +0800
+date: 2020-06-27
 category: Python
 tags: [Basics]
 excerpt: 本文主要介绍Python的数据类型(Number、String、List、Tuple、Dictionary、Set)以及类型之间的转换
